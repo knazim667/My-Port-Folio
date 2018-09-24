@@ -1,0 +1,48 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 500px){
+.col{
+    width: 100%;
+    margin: 0px;
+    padding: 0em;
+}
+span.looking{
+    padding: .1em;
+    padding-right: .5em;
+    padding-left: .5em;
+    font-size: 1em;
+    font-weight: bolder;
+}
+}
+@media only screen and (max-device-width : 500px){
+    .jumbotron{
+        width: 100%;
+        padding: 30%;
+        height: auto;
+
+    }
+    h1,h2,h3,h4,h5,.heading{
+        font-size: 1.5em;
+    }
+    a.btn, span.project, input[type="submit"]{
+        width: 70px;
+        font-size: 0.5em;
+        padding: 0.2em;
+    }
+    p{
+        font-size: 0.7em;
+    }
+    .paddsection{
+        height: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
+    .contact2, .contact1, .contact3{
+        padding-left: 10%;
+        margin: 10px;
+        text-align: center;
+    }
+    .contact-form{
+        width: 100%;
+        padding: 3%;
+    }
+    }

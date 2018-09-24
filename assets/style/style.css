@@ -1,0 +1,200 @@
+
+html, body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
+
+body a{
+transition:0.5s all;
+-webkit-transition:0.5s all;
+-moz-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+}
+body h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+nabar:hover{
+  background: -webkit-linear-gradient(red,blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+span.looking{
+  background: -webkit-linear-gradient(red,blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: .3em;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+ul li a{
+  list-style-type: none;
+}
+.jumbotron{
+  height: 50em;
+  padding: 15em;
+  background: linear-gradient(to bottom right, red, blue);
+}
+h1{
+  font-family: 'oswald', sans-serif;
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+}
+.btn{
+  border: 2px solid white;
+  border-radius: 25%;
+  padding: 1em;
+}
+span.project{
+  font-size: 1.5em;
+  color: white;
+}
+.Define{
+  color: white;
+}
+.heading{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 86%;
+  background: -webkit-linear-gradient(black,grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h4{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.paddsection{
+  height: 40em;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+.about-heading{
+  margin-top: 2em;
+}
+
+/* Service section */
+.padding-tb-90-77 {
+  padding: 90px 0 77px;
+}
+.width-100{
+  width: 100%;
+}
+.bg-bluish-white{
+  background-color: #f5f5f8;
+}
+.text-align-center{
+  text-align: center;
+}
+section{
+  display: block;
+  background: rgb(237, 238, 243);
+  height: auto;
+}
+img{
+ height: 4rem;
+ align-content: center;
+}
+#card{
+  margin-top: 5em;
+  margin-left: 1em;
+}
+
+/* portfolio section */
+
+.img-responsive{
+  height: 10rem;
+  margin-bottom: 1em;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+img.pics{
+  width: 100%;
+  height: 30em;
+}
+.col-sm-4:hover .img-responsive{
+  opacity: 0.3;
+}
+.col-sm-4:hover .middle {
+  opacity: 1;
+}
+.modal-title{
+  text-align: center;
+  font-size: 2em;
+}
+.modal-header{
+  text-align: center;
+}
+.modal-footer{
+  text-align: center;
+}
+.alert{
+  text-align: center;
+  background-color: green;
+  padding: 10px;
+  color: white;
+  display: none;
+}
+.detail{
+  line-height: 50%;
+}
+#Portfolio{
+  margin-top: 5em;
+}
+.col-sm-3{
+  margin-top: 3em;
+}
+.services-style-15{
+  background: white;
+}
+h3{
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+input[type="text"]{
+  border: 1px solid black;
+  height: 3.5em;
+}
+textarea[type="text"]{
+  border: 1px solid black;
+  line-height: 2em;
+}
+input[type="submit"]{
+  border: 1px solid black;
+  padding-right: 2em;
+  padding-left: 2em;
+  font-size: 1em;
+}
+input.btn{
+  border-radius: 5%;
+  width: 30%;
+}
+.contact1,.contact2,.contact3{
+  border: 1px solid grey;
+  border-radius: 10%;
+  padding: .5em;
+  padding-top: 0em;
+}
+.icon{
+  margin-top: 1em;
+}

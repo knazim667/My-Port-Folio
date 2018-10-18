@@ -34,13 +34,21 @@ header,
 }
 
 .container-fluid {
-  background-image: url("./wallpaper2you_276276.jpg");
+  position: relative;
+  background-image: url("./background.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100vh;
+  padding: 15rem;
 }
-
+.container-fluid .display-4{
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0,0,0,0.5);
+  color: #f1f1f1;
+  width: fit-content;
+}
 body a{
 transition:0.5s all;
 -webkit-transition:0.5s all;

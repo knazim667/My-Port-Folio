@@ -12,6 +12,7 @@
             
             <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
             <!-- Google Fonts-->
             <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
             <!-- Stylesheet Link -->
@@ -23,7 +24,8 @@
     
     <body>
         
-            <nav class="navbar navbar-expand-lg navbar-shrink fixed-top navbar-light bg-light" id="top">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-shrink fixed-top navbar-dark scrolling-navbar" id="top">
                     <div class="container">
                         <h5><a class="navbar-brand" href="index.html"><span class="looking">M Nazam</span></a></h5>
                         <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,17 +53,36 @@
                     </div>   
             </nav>
                   
-                  <div class="jumbotron" id="Home">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col sm-4">
-                                <h1 class="slideUp">Frontend web developer</h1>
-                                <p class="Define slideDown">Front-end web development is the practice of converting data to graphical interface for user to view and interact with data through digital interaction using HTML, CSS and JavaScript.</p>
-                                <a class="btn btn-outline-white btn-rounded" href="#Portfolio"><span class="project">View Project</span></a>
-                            </div>
+                  <!--Mask-->
+                    <div id="intro" class="view">
+
+                        <div class="mask rgba-blue-light">
+
+                        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+                        <div class="row d-flex justify-content-center text-center">
+
+                        <div class="col-md-10">
+
+                        <!-- Heading -->
+                        <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Welcome to My Portfolio</h2>
+
+                        <!-- Divider -->
+                        <hr class="hr-light">
+
+                        <!-- Description -->
+                        <h4 class="white-text my-4">Its Nice To Meet You</h4>
+                        <a type="button" class="btn btn-outline-dark" href="#skills">Read more<i class="fa fa-book ml-2"></i></a>
+                        </div>
+                        </div>
                         </div>
                     </div>
-                  </div>
+
+                    </div>
+<!--/.Mask-->
+
+
+        </header>
 
                   <!-- start section about us -->
                 <div id="About" class="paddsection">

@@ -34,7 +34,7 @@ header,
 }
 
 #intro {
-  background: url("/images/wallpaper2you_276276.jpg");
+  background: url("./wallpaper2you_276276.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

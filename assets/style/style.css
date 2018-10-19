@@ -20,7 +20,7 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: #563e91 !important;
+  background-color: rgb(43, 43, 235) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -29,25 +29,8 @@ header,
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #563e91 !important;
+    background: rgb(41, 41, 218) !important;
   }
-}
-
-.container-fluid {
-  position: relative;
-  background-image: url("./background.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100vh;
-  padding: 15rem;
-}
-.container-fluid .display-4{
-  position: absolute;
-  background: rgb(0, 0, 0);
-  background: rgba(0,0,0,0.5);
-  color: #f1f1f1;
-  width: fit-content;
 }
 body a{
 transition:0.5s all;
@@ -65,20 +48,11 @@ body h1,h2,h3,h4,h5,h6{
   margin-bottom: 0;
   border-radius: 0;
 }
-nabar:hover{
-  background: -webkit-linear-gradient(red,blue);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+span.looking {
+  font-size: 2.5rem;
 }
-span.looking{
-  background: -webkit-linear-gradient(red,blue);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding: .3em;
-  padding-right: 1em;
-  padding-left: 1em;
-  font-size: 2em;
-  font-weight: bolder;
+.jumbo{
+  width: 50%;
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -92,7 +66,10 @@ ul li a{
 .jumbotron{
   height: 50em;
   padding: 15em;
-  background: linear-gradient(to bottom right, red, blue);
+  background: linear-gradient(to top right, rgb(156, 209, 245), rgb(20, 20, 243));
+}
+.lead{
+  font-size: 2rem;
 }
 h1{
   font-family: 'oswald', sans-serif;

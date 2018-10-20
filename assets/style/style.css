@@ -20,7 +20,7 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: rgb(43, 43, 235) !important;
+  background-color: #2c8f8f !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -29,7 +29,7 @@ header,
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: rgb(41, 41, 218) !important;
+    background: #43cea2 !important;
   }
 }
 body a{
@@ -57,7 +57,6 @@ span.looking {
 
 /* Add a gray background color and some padding to the footer */
 footer {
-  background-color: #f2f2f2;
   padding: 25px;
 }
 ul li a{
@@ -66,7 +65,7 @@ ul li a{
 .jumbotron{
   height: 50em;
   padding: 15em;
-  background: linear-gradient(to top right, rgb(156, 209, 245), rgb(20, 20, 243));
+  background: linear-gradient(to top right,rgba(67, 206, 162, 1), rgba(24, 90, 157, 1));
 }
 .lead{
   font-size: 2rem;
@@ -77,6 +76,11 @@ h1{
   text-transform: uppercase;
   font-weight: bolder;
   color: white;
+}
+
+.img-fluid{
+  height: 230px;
+  width: 100%;
 }
 .btn{
   border: 2px solid white;
@@ -113,63 +117,10 @@ h4{
   margin-top: 2em;
 }
 
-/* Service section */
-.padding-tb-90-77 {
-  padding: 90px 0 77px;
-}
-.width-100{
-  width: 100%;
-}
-.bg-bluish-white{
-  background-color: #f5f5f8;
-}
 .text-align-center{
   text-align: center;
 }
-section{
-  display: block;
-  background: rgb(237, 238, 243);
-  height: auto;
-}
-img{
- height: 4rem;
- align-content: center;
-}
-#card{
-  margin-top: 5em;
-  margin-left: 1em;
-}
 
-/* portfolio section */
-
-.img-responsive{
-  height: 10rem;
-  margin-bottom: 1em;
-  opacity: 1;
-  display: block;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-img.pics{
-  width: 100%;
-  height: 30em;
-}
-.col-sm-4:hover .img-responsive{
-  opacity: 0.3;
-}
-.col-sm-4:hover .middle {
-  opacity: 1;
-}
-.modal-title{
-  text-align: center;
-  font-size: 2em;
-}
-.modal-header{
-  text-align: center;
-}
-.modal-footer{
-  text-align: center;
-}
 .alert{
   text-align: center;
   background-color: green;
@@ -177,46 +128,13 @@ img.pics{
   color: white;
   display: none;
 }
-.detail{
-  line-height: 50%;
+
+
+
+.contact{
+  background-color: #2c8f8f;
 }
-#Portfolio{
-  margin-top: 5em;
-}
-.col-sm-3{
-  margin-top: 3em;
-}
-.services-style-15{
-  background: white;
-}
-h3{
-  font-size: 2em;
-  margin-bottom: 2em;
-}
-input[type="text"]{
-  border: 1px solid black;
-  height: 3.5em;
-}
-textarea[type="text"]{
-  border: 1px solid black;
-  line-height: 2em;
-}
-input[type="submit"]{
-  border: 1px solid black;
-  padding-right: 2em;
-  padding-left: 2em;
-  font-size: 1em;
-}
-input.btn{
-  border-radius: 5%;
-  width: 30%;
-}
-.contact1,.contact2,.contact3{
-  border: 1px solid grey;
-  border-radius: 10%;
-  padding: .5em;
-  padding-top: 0em;
-}
-.icon{
-  margin-top: 1em;
+
+footer{
+  background-color: #2c8f8f;
 }
